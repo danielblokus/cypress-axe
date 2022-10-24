@@ -1,0 +1,14 @@
+{
+  "name": "cypress-axe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.10.0",
+    "cypress-axe": "^1.0.0"
+  }
+}
