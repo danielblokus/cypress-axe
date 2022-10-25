@@ -5,8 +5,10 @@ on:
     - cron: '0 6 * * *'
 jobs:
     tests:
-      runs-on: ubuntu-20.04
+      runs-on: ubuntu-latest
+      
       steps:
         - uses: actions/checkout@v2
         - uses: cypress-io/github-action@v4
+        - run: npm init
         - run: npm run cy:open
